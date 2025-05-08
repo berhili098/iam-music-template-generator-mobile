@@ -41,8 +41,6 @@
     <string>Your app needs access to the photo library to select photos and videos.</string>
 <key>NSPhotoLibraryAddUsageDescription</key>
 <string>We need to save images to your photo library.</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-<string>We need access to your gallery to save images.</string>
 
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
