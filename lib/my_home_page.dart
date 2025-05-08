@@ -42,6 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
                     width: 300,
                     height: 300,
                     decoration: BoxDecoration(
+                      color: Colors.white,
                       border: Border.all(color: Colors.black, width: 2),
                       borderRadius: BorderRadius.circular(8),
                     ),
@@ -49,6 +50,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       child: Text(
                         text.value,
                         style: Theme.of(context).textTheme.headlineMedium?.copyWith(fontFamily: 'music'),
+                        textAlign: TextAlign.center,
                       ),
                     ),
                   ),
